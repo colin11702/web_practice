@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+}
+
+.navbar > .name {
+  flex: 1;
+}
+
+.navbar > .about,
+.projects {
+  flex: 0.25;
+  text-align: right;
+  margin-right: 1em;
+}
